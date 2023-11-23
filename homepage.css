@@ -1,0 +1,126 @@
+*{
+	padding-left:8px;
+	width:98%;
+
+}
+
+body{
+	background-color:#dab785;
+}
+#header{
+	padding-left:10px;
+	padding-top:20px;
+	padding-right:60px;
+	padding-bottom:20px;
+	height:60px;
+	background-color:#031d44;
+	display:flex;
+}
+
+.header{
+	
+	font-size:20px;
+	color:white;
+    margin-right:250px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.body{
+	
+	
+	padding:0 20px;
+	
+	text-align:justify;
+}
+h1{
+	text-align:center;
+	font-size:6px;
+	text-decoration:none;
+	font-style:revert;font-family:unset;
+}
+
+#alliance{
+	font-size:16px;
+}
+#space{
+	
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #000, #333); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  
+  /*color:translucent;
+    color:#1E1E1E;
+	padding-left:95px;
+	
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #FF5733, #FFA500);
+   -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);*/
+  
+    padding-left:100px;
+	padding-top:100px;
+	padding-bottom:180px;
+	height:450px;
+	font-size:80px;
+	text-align:center;
+    font-weight:bolder; 
+}
+	@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #98c1d9;
+  }
+  50% {
+    text-shadow: 0 0 20px #98c1d9;
+  }
+  100% {
+    text-shadow: 0 0 5px #98c1d9;
+  }
+}
+
+#space{
+  animation: glow 2s infinite alternate;
+}
+h4{
+	font-size:25px;
+	text-align:justify;
+}
+
+.AyurvedicPlants{
+	font-size:30px;
+	text-align:center;
+	text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h3{
+	font-size:25px;
+	
+}
+
+#login{
+	padding-top:150px;
+	text-align:center;
+}
+
+form{
+	padding-left:42.5%;
+	width:300px;
+	height:500ps;
+}
+.formButton{
+	padding-left:42.5%;
+	width:55px;
+	height:8px;
+	padding-bottom:200px;
+}
+#footerContent{
+	text-align:center;
+	padding-top:100px;
+}
+#copyright{
+	padding-top:25px;
+	text-align:center;	
+	padding-bottom:100px;
+}
